@@ -5,8 +5,8 @@ STATIC_FILE_PATH = os.getenv('STATIC_FILE_PATH', '')
 
 MYSQL_SERVER = os.getenv("MYSQL_SERVER", '127.0.0.1')
 MYSQL_PORT= os.getenv("MYSQL_PORT", 3306)
-MYSQL_USER = os.getenv("MYSQL_USER", 'sthgadmin')
-MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", 'Sthg123456')
+MYSQL_USER = os.getenv("MYSQL_USER", 'mb-user')
+MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", 'mb-pwd')
 MYSQL_DB = os.getenv("MYSQL_DB", 'authorization-demo')
 
 PORT = os.getenv('PORT', 8080)
