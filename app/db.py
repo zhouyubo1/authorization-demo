@@ -1,6 +1,3 @@
-import sqlalchemy
-from sqlalchemy.orm import sessionmaker
-
 from flask import g, current_app
 from app.settings import MYSQL_SERVER, MYSQL_PORT, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB
 import pymysql

@@ -9,6 +9,4 @@ MYSQL_USER = os.getenv("MYSQL_USER", 'sthgadmin')
 MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", 'Sthg123456')
 MYSQL_DB = os.getenv("MYSQL_DB", 'authorization-demo')
 
-SQLALCHEMY_DATABASE_URI = (
-    f"mysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_SERVER}/{MYSQL_DB}"
-)
+PORT = os.getenv('PORT', 8080)
